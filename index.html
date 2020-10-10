@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src = "logic.js"></script>
+</head>
+<body>
+    <header>
+    <div class="scores"></div>
+    <div class="time">Time: <span id="timer">0</span></div>
+    <div class="wrapper">
+    <div class="container">
+        <h1 id="h1">Multiple Choice Quiz</h1>
+                <h3 id="instructions">Try to answer the following questions to the best of your ability in the time
+                    given above. If you answer the question wrong, your time will be deducted by ten seconds. 
+                    Once you answer all the questions or once the timer reaches zero, the game will be over
+                    and you will be given your results at the end. Remember to try your best and to have fun! 
+                    Good luck!</h3>
+        <hr style="margin-bottom: 20px">
+        <h2 id ="titleQuestion"></h2>
+       
+        <div name ="myForm" id = "myForm"></div>
+         <div id="radios">
+             
+         </div>
+        
+        <br>
+        <div id="startquiz">
+            <button type = "button" name ="start" id="startbtn">Click Me to Begin!</button>
+            <button type = "button" name="next" id="nextbtn">Submit</button>
+            <button type = "button" name="save" id="savebtn">Save Results</button>
+             <p id ="btnvalid">Please select an answer</p>
+
+             <div id="login">
+                <form name="loginform">
+                    <label>Username </label><input type ="text" name="username" id="username">
+                    <input type = "button" name = "loginbtn" value = "Login" id="loginbtn">
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+</header>
+</body>
+</html>
